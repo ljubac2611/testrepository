@@ -10,7 +10,7 @@ Also when Newman installed, you can type the following command in command prompt
 
 newman run SWAPI_AUTOMATION.postman_collection.json -e SWAPI.postman_environment.json --reporters cli
 
-and solution will be build, test collection will be executed and report will be generated.
+and solution will be build, test collection will be executed and report will be generated. Instead of the command you can also type the bat file name "RunningCommand.bat" in command prompt on the same path where the RunningCommand.bat file is, and solution will be build, test collection will be executed and report will be generated. 
 
 Also you can import SWAPI_AUTOMATION.postman_collection and SWAPI.postman_environment json files in Postman, run the test collection from Postman, and receive an execution report.
 
